@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+html, body {
+	padding: 0;
+	margin: 0;
+	background-color: rgb(42, 43, 44);
+	color: white;
+	font-size: 14px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.bandContainer {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 6em 2em;
+	width: 100%;
+}
+
+.bandWhite {
+	background-color: #fcfcfc;
+	color: black;
+}
+
+h1 {
+	font-size: 5em;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: lighter;
+}
+
+h2 {
+	font-size: 3em;
+	text-align: center;
+	font-weight: lighter;
+}

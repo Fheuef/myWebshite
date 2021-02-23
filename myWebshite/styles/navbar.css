@@ -1,0 +1,30 @@
+.navbar {
+	position: sticky;
+	background-color: #2a2b2c;
+	box-shadow: 0px 5px 5px black;
+	text-align: center;
+}
+
+/* .navbar ul {
+	display: inline-block;
+	list-style-type: none;
+} */
+
+.navbar a {
+	display: inline-block;
+	float: none;
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+	padding: 0.3em 1.4em;
+	transition: color 300ms;
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar a:hover {
+	color: #75bcff;
+}
+
+.navbar a.selected {
+	color: #138dff;
+}
